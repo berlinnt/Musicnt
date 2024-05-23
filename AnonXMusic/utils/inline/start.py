@@ -8,9 +8,9 @@ def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"], url=f"https://t.me/areanightbest"
+                text=_["S_B_1"], url=f"https://t.me/allnightarea"
             ),
-            InlineKeyboardButton(text=_["S_B_2"], url=f"https://t.me/berlinmusic_support"),
+            InlineKeyboardButton(text=_["S_B_2"], url=f"https://t.me/blackangelsmusic"),
         ],
     ]
     return buttons
@@ -26,10 +26,10 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_5"], user_id=1234567890),
-            InlineKeyboardButton(text=_["S_B_2"], url=f"https://t.me/berlinmusic_support"),
+            InlineKeyboardButton(text=_["S_B_2"], url=f"https://t.me/blackangelsmusic"),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_6"], url=f"https://t.me/areanightbest"),
+            InlineKeyboardButton(text=_["S_B_6"], url=f"https://t.me/allnightarea"),
         ],
     ]
     return buttons
