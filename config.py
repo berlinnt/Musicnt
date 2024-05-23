@@ -21,7 +21,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 14400))
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
-# Get this value from @Berlinmusicbot on Telegram by /id
+# Get this value from @blackangelsmusicbot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 484576504))
 
 ## Fill these variables if you're deploying on heroku.
@@ -39,7 +39,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Allnightarea")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/blackangelsmusic")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/blackangelsmusic")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
