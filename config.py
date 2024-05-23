@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/petinggint/Musicnt",
+    "https://github.com/berlinnt/Musicnt",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -40,7 +40,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Allnightarea")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Berlinmusic_support")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/blackangelsmusic")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -56,8 +56,8 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 00))
 
 
 # Telegram audio and video file size limit (in bytes)
-TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 209715200))
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2147483648))
+TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
+    "START_IMG_URL", "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
+    "PING_IMG_URL", "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-STATS_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-STREAM_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+STATS_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+STREAM_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
 
 
 def time_to_seconds(time):
