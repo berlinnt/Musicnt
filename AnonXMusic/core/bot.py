@@ -13,7 +13,7 @@ class Anony(Client):
             name="ʙᴇʀʟɪɴ✘ʀᴏʙᴏᴛ",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
-            bot_token=config.BOT_TOKEN,
+            bot_token=config.7314460876:AAGY_dgHlrqjmSUsyjZ-5mejAesHerrYdl0,
             in_memory=True,
             parse_mode=ParseMode.HTML,
             max_concurrent_transmissions=7,
@@ -28,7 +28,7 @@ class Anony(Client):
 
         try:
             await self.send_message(
-                chat_id=config.LOGGER_ID,
+                chat_id=config.-1002227326940,
                 text=f"<u><b>» ʙʟᴀᴄᴋ ᴀɴɢᴇʟs ᴍᴜsɪᴄ + ᴍᴀɴᴀɢᴇ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍᴇᴋ! 🔥",
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
@@ -42,7 +42,7 @@ class Anony(Client):
             )
             exit()
 
-        a = await self.get_chat_member(config.LOGGER_ID, self.id)
+        a = await self.get_chat_member(config.-1002227326940, self.id)
         if a.status != ChatMemberStatus.ADMINISTRATOR:
             LOGGER(__name__).error(
                 "ᴀᴅᴍɪɴɪɴ ᴅᴜʟᴜ ɴɢᴇɴᴛᴏᴛ ʙᴏᴛ ɴʏᴀ ᴅɪ ʟᴏɢ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ʟᴜ."
