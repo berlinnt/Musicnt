@@ -24,7 +24,7 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "6805263453:AAEcoiuNwaru_1xhSKtR3Dbk-WfQUXXhA4U",
+        "value": "7314460876:AAGY_dgHlrqjmSUsyjZ-5mejAesHerrYdl0",
         "required": true
       },
       "MONGO_DB_URI": {
@@ -39,7 +39,7 @@
       },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
-        "value": "BQEEi58AK_nSqfqivyKc-rPPyjlBig6D4oh1Dr4_4HHG3rsUSKI0nCPKGa94NCFmloXddARZtjJscFLWxH1m281AGVlrPzPKXZN95apYgF74Sd9VJ1Eg2tvTMdzoSK-zxHkaNy-wcSi597TFj6EvedQKCLLxxTbNC8R6kKcjCHDG3IrsAqd1yV8ukZaQ17Ih9xmPEvSYe5AOPRdbsckwlEKbvQoECYyj4yCG12xuOmwY8-hjc6HXTTiLOdJQUqELOiHqlzp8U6OWI-xtDvaqZzZyxPYfNfqHDyuLf3zTCI_45P3GPh11EEl0NKdyBSMoBPjx6BfDPf_aHynjOGc1eMIIQ5lDMQAAAAGP2y0HAA",
+        "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -54,7 +54,7 @@
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "-1002168077454",
+        "value": "-1002227326940",
         "required": true
       }
     },
